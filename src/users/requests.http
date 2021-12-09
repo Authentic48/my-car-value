@@ -7,7 +7,7 @@ content-type: application/json
 }
 
 ### Find a particular user
-GET http://localhost:3000/users/1
+GET http://localhost:3000/users/2
 
 ### Find all users with a given email
 

@@ -6,7 +6,6 @@ import {
   AfterUpdate,
   AfterRemove,
 } from 'typeorm';
-
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
@@ -14,6 +13,7 @@ export class User {
 
   @Column()
   email: string;
+
   @Column()
   password: string;
 
