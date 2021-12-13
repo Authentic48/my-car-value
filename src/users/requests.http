@@ -2,7 +2,7 @@ POST  http://localhost:3000/users/signup
 content-type: application/json
 
 {
-     "email": "test@test.com",
+     "email": "test3@test.com",
      "password": "password"
 }
 
@@ -27,3 +27,18 @@ content-type: application/json
      "email": "updateemail@test.com",
      "password": "password123"
 }
+
+### Sign in 
+POST  http://localhost:3000/users/signin
+content-type: application/json
+
+{
+    "email": "test3@test.com",
+     "password": "password"
+}
+
+### Current signin user
+GET http://localhost:3000/users/current-user
+
+### signout 
+POST  http://localhost:3000/users/signout 
